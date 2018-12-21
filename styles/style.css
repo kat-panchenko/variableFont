@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'KairosSans';
+  src: url("../fonts/KairosSans_Variable.woff2");
+}
+
+p {
+  font-family: 'KairosSans', sans-serif;
+  font-size: 70px;
+  font-variation-settings: "wght" 400, "wdth" 80, "ital" 0.5;
+  width: 90%;
+  margin: auto;
+  transition: .5s;
+}
+
+p:hover {
+  font-size: 80px;
+  font-variation-settings: "wght" 400, "wdth" 90, "ital" 0;
+}
